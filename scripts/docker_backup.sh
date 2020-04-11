@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pushd ~/IOTStack
+pushd ~/IoTStack
 
 [ -d ./backups ] || mkdir ./backups
 
@@ -44,7 +44,7 @@ du -h ./backups/$backupfile
 #remove older local backup files
 #to change backups retained,  change below +8 to whatever you want (days retained +1)
 ls -t1 ./backups/backup* | tail -n +8 | sudo xargs rm -f
-echo "last seven local backup files are saved in ~/IOTStack/backups"
+echo "last seven local backup files are saved in ~/IoTStack/backups"
 
 
 
@@ -52,7 +52,7 @@ echo "last seven local backup files are saved in ~/IOTStack/backups"
 if [ -f ./backups/dropbox ]; then
 
 	#setup variables
-	dropboxfolder=/IOTStackBU
+	dropboxfolder=/IoTStackBU
 	dropboxuploader=~/Dropbox-Uploader/dropbox_uploader.sh
 	dropboxlog=./backups/log_dropbox.txt
 
@@ -92,7 +92,7 @@ if [ -f ./backups/rclone ]; then
 	echo "synching to Google Drive"
 	echo "latest 7 backup files are kept"
 	#sync local backups to gdrive (older gdrive copies will be deleted)
-	rclone sync -P ./backups --include "/backup*"  gdrive:/IOTStackBU/
+	rclone sync -P ./backups --include "/backup*"  gdrive:/IoTStackBU/
 	echo "synch with Google Drive complete"
 fi
 
