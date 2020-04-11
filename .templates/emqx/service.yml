@@ -1,5 +1,6 @@
   emqx:
     container_name: emqx
+    restart: unless-stopped
     ports:
         - '18083:18083'
         - '1883:1883'
