@@ -7,6 +7,6 @@
       - 9443:9443
     volumes:
       - ./volumes/blynk_server/data:/data
-      - ./server.properties:/config/server.properties
-      - ./mail.properties:/blynk/mail.properties
+      - ./.templates/blynk_server/server.properties:/config/server.properties
+      - ./.templates/blynk_server/mail.properties:/blynk/mail.properties
     image: 'maxbanton/blynk-server:latest'

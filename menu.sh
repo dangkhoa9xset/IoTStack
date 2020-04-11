@@ -9,6 +9,7 @@ declare -A cont_array=(
 	[influxdb]="InfluxDB"
 	[telegraf]="Telegraf (Requires InfluxDB and Mosquitto)"
 	[grafana]="Grafana"
+	[emqx]="EMQX"
 	[mosquitto]="Eclipse-Mosquitto"
 	[postgres]="Postgres"
 	[mariadb]="MariaDB (MySQL fork)"
