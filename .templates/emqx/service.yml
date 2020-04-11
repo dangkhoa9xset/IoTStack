@@ -1,0 +1,6 @@
+  emqx:
+    container_name: emqx
+    ports:
+        - '18083:18083'
+        - '1883:1883'
+    image: 'emqx/emqx:latest'
