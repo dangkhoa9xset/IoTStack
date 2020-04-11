@@ -125,7 +125,7 @@ sudo apt-get install git
 2.Download the repository with:
 
 ```bash
-git clone https://github.com/gcgarner/IOTstack.git ~/IOTstack
+git clone https://github.com/dangkhoa9xset/IoTStack.git ~/IoTStack
 ```
 
 Due to some script restraints, this project needs to be stored in ~/IOTstack
@@ -133,7 +133,7 @@ Due to some script restraints, this project needs to be stored in ~/IOTstack
 3.To enter the directory run:
 
 ```bash
-cd ~/IOTstack
+cd ~/IoTStack
 ```
 
 ## The Menu
