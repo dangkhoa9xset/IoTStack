@@ -128,7 +128,7 @@ sudo apt-get install git
 git clone https://github.com/dangkhoa9xset/IoTStack.git ~/IoTStack
 ```
 
-Due to some script restraints, this project needs to be stored in ~/IOTstack
+Due to some script restraints, this project needs to be stored in ~/IoTStack
 
 3.To enter the directory run:
 
